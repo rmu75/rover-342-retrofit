@@ -1,0 +1,203 @@
+o<rack_change> sub
+
+o10000 if [#<_task> EQ 0]
+  (debug, Task is null)
+  o<rack_change> return [999]
+o10000 endif
+
+M73 (auto-restore modal settings on return)
+
+F800
+G61.1
+G90
+
+; o<maptool2pocket> call [#<_current_tool>]
+; #<current_pocket> = #<_value>
+; o<maptool2pocket> call [#<_selected_tool>]
+; #<selected_pocket> = #<_value>
+
+#<current_pocket> = #<_current_pocket>
+#<selected_pocket> = #<_selected_pocket>
+
+(print, rack_change: loaded tool=#<_current_tool> current pocket: #<_current_pocket>)
+(print, rack_change: selected tool=#<_selected_tool> selected pocket: #<_selected_pocket>)
+
+(check if current tool is new tool)
+O100 if [#<_current_tool> EQ #<_selected_tool>]
+  O<rack_change> return [1]
+O100 endif
+
+( unload previous tool)
+(o300 if [#<_current_pocket> GT 0])
+(     o<tool_getput_move> call [#<_current_pocket>])
+(     M62 P #<_ini[pins]lock> ; set lock pin)
+(     G4  P #<_ini[dwell]lock_time>)
+(     o<tool_holder_clear_move> call)
+(     G4 P #<_ini[dwell]mystery> ; unsure what this is for)
+(o300 endif)
+
+O200 if [[#<current_pocket> LT 0] OR [#<current_pocket> GT 10] or [#<selected_pocket> LT 0] or [#<selected_pocket> GT 10]]
+  (abort, tool_change: invalid pocket #<current_pocket> or #<selected_pocket>)
+O200 endif
+
+(check if pocket is empty)
+M66 P[#<current_pocket> + 9] L0
+O201 if [#5399 EQ 1]
+  (abort, tool_change: target pocket #<current_pocket> is not empty!)
+O201 endif
+
+(check if selected pocket has tool)
+M66 P[#<selected_pocket> + 9] L0
+O202 if [#5399 EQ 0]
+  (abort, tool_change: selected pocket #<selected_pocket> is empty!)
+O202 endif
+
+G53 G0 Z0
+M5 (stop spindle)
+M9 (coolant off)
+
+( IO pin map )
+()
+( INPUTS )
+( 10 - 19   : tool in pocket )
+( 20 - 29   : pocket is up   )
+( 30        : all pockets down )
+( 31        : cover open )
+( 32        : cover closed )
+( 33        : tool locked in spindle A )
+( 34        : tool unlocked in spindle A )
+( 35        : spindle A is down )
+( 36        : tool locked in spindle C )
+( 37        : tool unlocked in spindle C )
+( 38        : spindle C is down )
+()
+( OUTPUTS )
+( 0         : open cover )
+( 1         : close cover )
+( 2         : unlock tool in spindle A )
+( 3         : lock tool in spindle A )
+( 4         : flush tool in spindle A )
+( 5         : move spindle A into "down" position )
+( 6         : unlock tool in spindle C )
+( 7         : lock tool in spindle C )
+( 8         : flush tool in spindle C )
+( 9         : move spindle C into "down" position )
+( 10 - 19   : move pocket into "up" position )
+
+M64 P0                                          (open cover)
+o<tool_getput_prepare> call [#<current_pocket>] (move to pocket)
+M66 L3 P31 Q15 	                                (wait for cover to open)
+O3010 if [#5399 EQ -1]
+  (abort, cover not opening)
+O3010 endif
+
+G4  P0.1   				        (delay)
+M65 P0					        (lösche deckel auf bit)
+
+M64 P5 	       				      	(spindle down)
+M66 L3 P35 Q2				      	(wait for spindle down)
+O3020 if [#5399 EQ -1]
+  (abort, spindle not going down)
+O3020 endif
+
+
+M64 P[#<current_pocket> + 9]                  	(elevator up)
+M66 L3 P[#<current_pocket> + 19] Q10           	(wait for elevator up)
+O3030 if [#5399 EQ -1]
+  (abort, pocket elevator not rising)
+O3030 endif
+
+G4  P0.1 		     		      	(delay)
+o<tool_put_move> call [#<current_pocket>]  	(move into pocket)
+M66 L3 P[#<current_pocket> + 9] Q1            	(wait for pocket sensor)
+M64 P2     				      	(unlock tool)
+M64 P4 	   				      	(flush tool)
+(print, flushing tool)
+M66 L3 P[#<current_pocket> + 9] Q10000         	(wait for pocket sensor)
+O3040 if [#5399 EQ -1]
+  (abort, tool not in pocket)
+O3040 endif
+G4  P0.1 		     		      	(delay)
+
+G4  P0.5   				      	(delay)
+M66 L3 P34 Q5				      	(wait for tool unlocked signal)
+O3050 if [#5399 EQ -1]
+  (abort, tool not unlocking)
+O3050 endif
+
+M65 P[#<current_pocket> + 9] 		      	(retract elevator)
+M65 P4 			     		      	(flush off)
+M66 L3 P30 Q10		     		      	(wait for pocket elevator down)
+O3060 if [#5399 EQ -1]
+  (abort, pocket elevators not down)
+O3060 endif
+
+o<tool_get_prepare> call [#<selected_pocket>] 	(move to new pocket)
+
+M62 P[#<selected_pocket> + 9]         	      	(elevator up)
+o<tool_get_move> call [#<selected_pocket>] 	(dummy move to synchronise output)
+M66 L3 P[#<selected_pocket> + 19] Q10	      	(wait for elevator up)
+O3070 if [#5399 EQ -1]
+  (abort, pocket elevator not up)
+O3070 endif
+
+G4  P0.2	 		      	  	      	(delay)
+
+M65 P2 						(kill tool unlock bit)
+M64 P3 						(set lock tool bit)
+G4  P0.1 					(delay)
+M66 L3 P33 Q5					(wait fot tool locked signal)
+O3080 if [#5399 EQ -1]
+  (abort, tool not locking)
+O3080 endif
+
+G91
+G1 X65						(move out)
+G90
+
+M65 P3 			      			(kill tool lock bit)
+M66 L4 P[#<selected_pocket> + 9] Q5 		(wait for pocket empty)
+O3090 if [#5399 EQ -1]
+  (abort, pocket still occupied)
+O3090 endif
+G53 G0 Z0 					(move up)
+M65 P5						(spindle A up)
+
+M65 P[#<selected_pocket> + 9]			(retract elevator)
+M66 L3 P30 Q10		     		      	(wait for pocket elevator down)
+O3100 if [#5399 EQ -1]
+  (abort, pocket elevators not down)
+O3100 endif
+
+
+M64 P1 						(close cover)
+M66 L3 P32 Q20					(wait for cover closed)
+O3110 if [#5399 EQ -1]
+  (abort, cover not closing)
+O3110 endif
+
+G4  P0.1					(delay)
+M65 P1						(kill close cover bit)
+
+
+(;; the purpose of this move is unclear to me)
+(;; micges - please explain!)
+(;o400 if [#<_absolute>])
+(;     G91)
+(;     G0 Z-6)
+(;     G90)
+(;o400 else)
+(;     G0 Z-6)
+(;o400 endif)
+(;M65 P #<_ini[pins]lock> ; drop lock pin)
+(;G4  P #<_ini[dwell]post_unlock>)
+()
+(;; NB: this is reordered wrt micges patch:)
+(;; tool_holder_clear_move came after load_tool_msg)
+(;o<tool_holder_clear_move> call)
+(;)
+(;; succeed by returning a positive value)
+
+o<rack_change> endsub [1]
+
+M2

@@ -1,0 +1,97 @@
+unlinkp iocontrol.0.tool-change
+unlinkp iocontrol.0.tool-changed
+
+net tool-change iocontrol.0.tool-change iocontrol.0.tool-changed
+
+net tool-number             iocontrol.0.tool-prep-number  =>  hal_manualtoolchange.number
+net tool-prepare-loopback   iocontrol.0.tool-prepare      =>  iocontrol.0.tool-prepared
+
+net current-tool iocontrol.0.tool-number => classicladder.0.s32in-00
+
+# Werkzeugmagazin Belegung
+net is-pocket-populated.01 <= s.9641 => classicladder.0.in-10 => motion.digital-in-10
+net is-pocket-populated.02 <= s.9651 => classicladder.0.in-11 => motion.digital-in-11
+net is-pocket-populated.03 <= s.9661 => classicladder.0.in-12 => motion.digital-in-12
+net is-pocket-populated.04 <= s.9671 => classicladder.0.in-13 => motion.digital-in-13
+net is-pocket-populated.05 <= s.9681 => classicladder.0.in-14 => motion.digital-in-14
+net is-pocket-populated.06 <= s.9731 => classicladder.0.in-15 => motion.digital-in-15
+net is-pocket-populated.07 <= s.9741 => classicladder.0.in-16 => motion.digital-in-16
+net is-pocket-populated.08 <= s.9751 => classicladder.0.in-17 => motion.digital-in-17
+net is-pocket-populated.09 <= s.9761 => classicladder.0.in-18 => motion.digital-in-18
+net is-pocket-populated.10 <= s.9771 => classicladder.0.in-19 => motion.digital-in-19
+
+# Werkzeugmagazin Heber Sensor "oben"
+net is-pocket-elevator-up.01 <= s.9821 => classicladder.0.in-20 => motion.digital-in-20
+net is-pocket-elevator-up.02 <= s.9831 => classicladder.0.in-21 => motion.digital-in-21
+net is-pocket-elevator-up.03 <= s.9841 => classicladder.0.in-22 => motion.digital-in-22
+net is-pocket-elevator-up.04 <= s.9851 => classicladder.0.in-23 => motion.digital-in-23
+net is-pocket-elevator-up.05 <= s.9861 => classicladder.0.in-24 => motion.digital-in-24
+net is-pocket-elevator-up.06 <= s.9911 => classicladder.0.in-25 => motion.digital-in-25
+net is-pocket-elevator-up.07 <= s.9921 => classicladder.0.in-26 => motion.digital-in-26
+net is-pocket-elevator-up.08 <= s.9931 => classicladder.0.in-27 => motion.digital-in-27
+net is-pocket-elevator-up.09 <= s.9941 => classicladder.0.in-28 => motion.digital-in-28
+net is-pocket-elevator-up.10 <= s.9951 => classicladder.0.in-29 => motion.digital-in-29
+
+net toolchanger-open-cover classicladder.0.out-48 => s.9291
+net toolchanger-close-cover classicladder.0.out-49 => s.9301
+
+net request-open-toolchanger-cover	motion.digital-out-00 => classicladder.0.in-38
+net request-close-toolchanger-cover 	motion.digital-out-01 => classicladder.0.in-39
+
+net elevator-pocket.01 classicladder.0.out-50 => s.9371
+net elevator-pocket.02 classicladder.0.out-51 => s.9391
+net elevator-pocket.03 classicladder.0.out-52 => s.9411
+net elevator-pocket.04 classicladder.0.out-53 => s.9431
+net elevator-pocket.05 classicladder.0.out-54 => s.9461
+net elevator-pocket.06 classicladder.0.out-55 => s.9481
+net elevator-pocket.07 classicladder.0.out-56 => s.9501
+net elevator-pocket.08 classicladder.0.out-57 => s.9521
+net elevator-pocket.09 classicladder.0.out-58 => s.9551
+net elevator-pocket.10 classicladder.0.out-59 => s.9571
+
+
+net request-pocket-up.01 motion.digital-out-10 => classicladder.0.in-90
+net request-pocket-up.02 motion.digital-out-11 => classicladder.0.in-91
+net request-pocket-up.03 motion.digital-out-12 => classicladder.0.in-92
+net request-pocket-up.04 motion.digital-out-13 => classicladder.0.in-93
+net request-pocket-up.05 motion.digital-out-14 => classicladder.0.in-94
+net request-pocket-up.06 motion.digital-out-15 => classicladder.0.in-95
+net request-pocket-up.07 motion.digital-out-16 => classicladder.0.in-96
+net request-pocket-up.08 motion.digital-out-17 => classicladder.0.in-97
+net request-pocket-up.09 motion.digital-out-18 => classicladder.0.in-98
+net request-pocket-up.10 motion.digital-out-19 => classicladder.0.in-99
+
+
+
+## Werkzeugmagazin Heber Sensor "alle unten"
+net is-pocket-elevators-down	<= s.10081 => classicladder.0.in-30 => motion.digital-in-30
+
+# Deckel offen
+net is-toolchanger-open		<= s.9341 => classicladder.0.in-31 => motion.digital-in-31
+# Deckel zu
+net is-toolchanger-closed	<= s.9351 => classicladder.0.in-32 => motion.digital-in-32
+
+
+# Spindel TP1
+# Werkzeug gespannt
+net is-tool-locked-spindle.A	s.9161	=> classicladder.0.in-33 => motion.digital-in-33
+# Werkzeugwechsler offen
+net is-tool-unlocked-spindle.A	s.9171	=> classicladder.0.in-34 => motion.digital-in-34
+net is-spindle-down.A			=> motion.digital-in-35
+net request-unlock-tool.A	motion.digital-out-02 => classicladder.0.in-84
+net request-lock-tool.A		motion.digital-out-03 => classicladder.0.in-85
+net request-flush-tool.A	motion.digital-out-04 => classicladder.0.in-86
+net request-spindle-down.A	motion.digital-out-05 => classicladder.0.in-75
+
+
+# Spindel TP2
+# Werkzeug gespannt
+net is-tool-locked-spindle.C	s.10151	=> classicladder.0.in-35 => motion.digital-in-36
+# Werkzeugwechsler offen
+net is-tool-unlocked-spindle.C	s.10161	=> classicladder.0.in-36 => motion.digital-in-37
+net is-spindle-down.C			=> motion.digital-in-38
+
+net request-unlock-tool.C	motion.digital-out-06 => classicladder.0.in-87
+net request-lock-tool.C		motion.digital-out-07 => classicladder.0.in-88
+net request-flush-tool.C	motion.digital-out-08 => classicladder.0.in-89
+net request-spindle-down.c	motion.digital-out-09 => classicladder.0.in-78

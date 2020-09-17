@@ -1,0 +1,34 @@
+
+o<maptool2pocket> sub
+
+#<pocket> = 0
+
+(don't use pocket 1, 2, 5 and 5 for the moment)
+
+o190 if [#1 EQ 1]
+  #<pocket> = 2
+o190 elseif [#1 EQ 19]
+  #<pocket> = 3
+o190 elseif [#1 EQ 16]
+  #<pocket> = 4
+o190 elseif [#1 EQ 5]
+  #<pocket> = 5
+o190 elseif [#1 EQ 11]
+  #<pocket> = 7
+o190 elseif [#1 EQ 14]
+  #<pocket> = 8
+o190 elseif [#1 EQ 12]
+  #<pocket> = 9
+o190 elseif [#1 EQ 3]
+  #<pocket> = 10
+o190 else
+  (debug, unknown pocket for tool #1)
+o190 endif
+
+(print, map tool #1 to pocket #<pocket>)
+
+o<maptool2pocket> return [#<pocket>]
+
+o<maptool2pocket> endsub
+
+m2

@@ -1,0 +1,97 @@
+# Include your custom_postgui HAL commands here
+# This file will not be overwritten when you run PNCconf again
+
+# start buttons
+net button-start-lh-1	s.1001	=> classicladder.0.in-00
+net button-start-lh-2	s.5141	=> classicladder.0.in-01
+net button-start-rh-1	s.5151	=> classicladder.0.in-02
+net button-start-rh-2	s.1011	=> classicladder.0.in-03
+
+# 
+net button-manual-tool-change.A	s.9151		=> classicladder.0.in-04	# request manual tool change slot "A"
+net spindle-unlock-tool.A	s.9101-unlock 	<= classicladder.0.out-02	# unlock tool
+net spindle-lock-tool.A		s.9101-lock	<= classicladder.0.out-03	# lock tool
+net spindle-flush-tool.A	s.9121		<= classicladder.0.out-04	# blow out
+
+net button-manual-tool-change.C	s.10141		=> classicladder.0.in-05 	# request manual tool change slot "C"
+net spindle-unlock-tool.C	s.10091-unlock	<= classicladder.0.out-05	# unlock tool
+net spindle-lock-tool.C		s.10091-lock	<= classicladder.0.out-06	# lock tool
+net spindle-flush-tool.C	s.10111		<= classicladder.0.out-07	# blow out
+
+
+net is-spindle-down.A		s.1541 		=> classicladder.0.in-06		# Slot A / Spindel 1 unten
+net is-spindle-down.B		s.1561		=> classicladder.0.in-72
+net is-spindle-down.C		s.1581 		=> classicladder.0.in-07		# Slot C / Spindel 2 unten
+net is-spindle-down.D		s.1601		=> classicladder.0.in-73
+net is-spindle-down.E		s.1621		=> classicladder.0.in-74
+net is-spindles-up		s.1041 		=> classicladder.0.in-37		# Alle Spindeln / Werkzeuge oben
+
+# main spindles
+
+net spindle-351			s.351		=> classicladder.0.in-08
+net spindle-8451 		s.8451		<= classicladder.0.out-08
+net start 			X.O107.0	<= classicladder.0.out-09
+net spindle-enable				=> classicladder.0.in-09
+net spindle-at-speed				<= classicladder.0.out-20
+
+# KSLA
+net start-spindle.A classicladder.0.out-10 => s.7391 
+# KSLB
+net start-spindle.B classicladder.0.out-11 # => s.7411
+# KSLC
+net start-spindle.C classicladder.0.out-12 => s.7431
+# KSLD
+net start-spindle.D classicladder.0.out-13 => s.7451
+# KSLE
+net start-spindle.E classicladder.0.out-14 => s.7481
+
+# Absenkung
+net spindle-down.A classicladder.0.out-15 => s.3971
+net spindle-down.B classicladder.0.out-16 # => s.3991
+net spindle-down.C classicladder.0.out-17 => s.4011
+net spindle-down.D classicladder.0.out-18 => s.4031
+net spindle-down.E classicladder.0.out-19 => s.4061
+
+# Anschläge
+#                                                ???
+#                                                 v
+net stop.lh1 s.1721 classicladder.0.out-30 classicladder.0.in-40 # lh1
+net stop.lh2 s.5171 classicladder.0.out-31 classicladder.0.in-41 # lh2
+net stop.rh1 s.5191 classicladder.0.out-32 classicladder.0.in-42 # rh1
+net stop.rh2 s.1741 classicladder.0.out-33 classicladder.0.in-43 # rh2
+net stop.lv1-1 s.4991 classicladder.0.out-34 classicladder.0.in-44 # lv1-1
+net stop.lv2-1 s.5071 classicladder.0.out-35 classicladder.0.in-45 # lv2-1
+net stop.rv1-1 s.5091 classicladder.0.out-36 classicladder.0.in-46 # rv1-1
+net stop.rv2-1 s.5011 classicladder.0.out-37 classicladder.0.in-47 # rv2-1
+net stop.lv1-2 s.1131 classicladder.0.out-38 classicladder.0.in-48 # lv1-2
+net stop.lv2-2 s.5271 classicladder.0.out-39 classicladder.0.in-49 # lv2-2
+net stop.rv1-2 s.5291 classicladder.0.out-40 classicladder.0.in-50 # rv1-2
+net stop.rv2-2 s.1151 classicladder.0.out-41 classicladder.0.in-51 # rv2-2
+
+
+net stop.slh1 anschlag.lh1 classicladder.0.in-52
+net stop.slh2 anschlag.lh2 classicladder.0.in-53
+net stop.srh1 anschlag.rh1 classicladder.0.in-54
+net stop.srh2 anschlag.rh2 classicladder.0.in-55
+
+net stop.slv1-1 anschlag.lv1-1 classicladder.0.in-56
+net stop.slv2-1 anschlag.lv2-1 classicladder.0.in-57
+net stop.srv1-1 anschlag.rv1-1 classicladder.0.in-58
+net stop.srv2-1 anschlag.rv2-1 classicladder.0.in-59
+
+net stop.slv1-2 anschlag.lv1-2 classicladder.0.in-60
+net stop.slv2-2 anschlag.lv2-2 classicladder.0.in-61
+net stop.srv1-2 anschlag.rv1-2 classicladder.0.in-62
+net stop.srv2-2 anschlag.rv2-2 classicladder.0.in-63
+
+net stop.engage anschlag.engage classicladder.0.in-64
+
+# estop
+#
+#
+net axis-reset <= classicladder.0.out-80
+net axis-reset => halui.estop.reset
+net emc-enable-in <= classicladder.0.out-81
+net estop-enable-in s.341 => classicladder.0.in-80
+
+source custom_pyvcp.hal

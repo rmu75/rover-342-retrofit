@@ -1,0 +1,30 @@
+o<tool_getput_prepare> sub
+
+G53 G0 Z0
+
+
+o10000 if [#1 EQ 1]
+  G53 G0 X342.1 Y-411.5
+o10000 elseif [#1 EQ 2]
+  G53 G0 X342.1 Y-563.5
+o10000 elseif [#1 EQ 3]
+  G53 G0 X342.1 Y-715.5 (Z -63.0)
+o10000 elseif [#1 EQ 4]
+  G53 G0 X342.1 Y-867.5
+o10000 elseif [#1 EQ 5]
+  G53 G0 X342.1 Y-1019.5
+o10000 elseif [#1 EQ 6] (Z -63.55)
+  G53 G0 X192.1 Y-411.5
+o10000 elseif [#1 EQ 7]
+  G53 G0 X192.1 Y-563.5
+o10000 elseif [#1 EQ 8]
+  G53 G0 X192.1 Y-715.5
+o10000 elseif [#1 EQ 9]
+  G53 G0 X192.1 Y-867.5
+o10000 elseif [#1 EQ 10]
+  G53 G0 X192.1 Y-1019.5
+o10000 else
+  (abort, tool_change: prepare move to unknown pocket #1 commanded)
+o10000 endif
+o<tool_getput_prepare> endsub
+m2

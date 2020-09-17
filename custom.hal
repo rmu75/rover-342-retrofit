@@ -1,0 +1,200 @@
+# Include your custom HAL commands here
+# This file will not be overwritten when you run PNCconf again
+
+# 7i90 @ sserial port 0 channel 1 connector P3
+# XI100
+alias pin X.I100.0 s.1001
+alias pin X.I100.1 s.5141
+alias pin X.I100.2 s.5151
+alias pin X.I100.3 s.1011
+alias pin X.I100.4 s.1021
+alias pin X.I100.5 s.1031
+alias pin X.I100.6 s.303 
+alias pin X.I100.7 s.323 
+# XI101
+alias pin X.I101.0 s.341 
+alias pin X.I101.1 s.8141
+alias pin X.I101.2 s.8231
+alias pin X.I101.3 s.8321
+alias pin X.I101.4 s.1541
+alias pin X.I101.5 s.1561
+alias pin X.I101.6 s.1581
+alias pin X.I101.7 s.1041
+# XI102
+alias pin X.I102.0 s.8591
+alias pin X.I102.1 s.351 
+alias pin X.I102.2 s.1051
+alias pin X.I102.5 s.5681
+alias pin X.I102.6 s.5691
+
+
+# 7i90 @ sserial port 0 channel 0 connector P3
+# XI103
+alias pin X.I103.0 s.1601
+alias pin X.I103.1 s.1621
+# XI104
+alias pin X.I104.4 s.5901
+alias pin X.I104.5 s.5921
+alias pin X.I104.6 s.9161
+alias pin X.I104.7 s.9171
+# XI107
+alias pin X.I107.0 s.9341
+alias pin X.I107.1 s.9351
+alias pin X.I107.2 s.9641
+alias pin X.I107.3 s.9651
+alias pin X.I107.4 s.9661 
+alias pin X.I107.5 s.9671
+alias pin X.I107.6 s.9681
+alias pin X.I107.7 s.9731
+
+
+# 7i90 @ sserial port 0 channel 1 connector P2
+# XI110
+alias pin X.I110.0 s.9741
+alias pin X.I110.1 s.9751
+alias pin X.I110.2 s.9761
+alias pin X.I110.3 s.9771
+alias pin X.I110.4 s.10081
+alias pin X.I110.5 s.9821
+alias pin X.I110.6 s.9831
+alias pin X.I110.7 s.9841
+# XI111
+alias pin X.I111.0 s.9851
+alias pin X.I111.1 s.9861
+alias pin X.I111.2 s.9911
+alias pin X.I111.3 s.9921
+alias pin X.I111.4 s.9931
+alias pin X.I111.5 s.9941
+alias pin X.I111.6 s.9951
+# XI112
+alias pin X.I112.0 s.10151
+alias pin X.I112.1 s.10161
+alias pin X.I112.2 s.9151
+alias pin X.I112.4 s.10141
+
+
+# 7i90 @ sserial port 0 channel 0 connector P2
+# XO100
+alias pin X.O100.0 s.1991
+alias pin X.O100.1 s.2011
+alias pin X.O100.2 s.2031
+alias pin X.O100.3 s.2051
+alias pin X.O100.4 s.2081
+alias pin X.O100.5 s.2101
+alias pin X.O100.6 s.2121
+alias pin X.O100.7 s.2141
+# XO101
+alias pin X.O101.0 s.2171
+alias pin X.O101.1 s.2191
+alias pin X.O101.2 s.2211
+alias pin X.O101.3 s.2231
+alias pin X.O101.4 s.2261
+alias pin X.O101.5 s.2281
+alias pin X.O101.6 s.2301
+alias pin X.O101.7 s.2321
+# XO102
+alias pin X.O102.0 s.2351
+alias pin X.O102.1 s.2371
+alias pin X.O102.2 s.2391
+alias pin X.O102.3 s.2411
+alias pin X.O102.4 s.2441
+alias pin X.O102.5 s.2461
+alias pin X.O102.6 s.2481
+alias pin X.O102.7 s.2501
+
+
+# 7i90 @ sserial port 0 channel 1 connector P1
+# XO103
+alias pin X.O103.0 s.2531
+alias pin X.O103.1 s.2551
+alias pin X.O103.2 s.2571
+alias pin X.O103.3 s.2801
+alias pin X.O103.4 s.2821
+alias pin X.O103.5 s.2841
+alias pin X.O103.6 s.2861
+alias pin X.O103.7 s.2911
+# XO104
+alias pin X.O104.0 s.3971
+alias pin X.O104.1 s.3991
+alias pin X.O104.2 s.4011
+alias pin X.O104.3 s.4031
+alias pin X.O104.4 s.7391
+alias pin X.O104.6 s.7431
+alias pin X.O104.7 s.7451
+# XO105
+alias pin X.O105.0 s.8451
+alias pin X.O105.1 s.5171
+alias pin X.O105.2 s.5191
+alias pin X.O105.3 s.4991
+alias pin X.O105.4 s.5011
+alias pin X.O105.5 s.4061
+alias pin X.O105.6 s.7481
+alias pin X.O105.7 s.7211
+
+
+# 7i90 @ sserial port 0 channel 2 connector P1
+# XO106
+alias pin X.O106.0 s.122 
+alias pin X.O106.1 s.1251
+alias pin X.O106.2 s.8042
+alias pin X.O106.3 s.1091
+alias pin X.O106.4 s.1111
+alias pin X.O106.5 s.1131
+alias pin X.O106.6 s.1151
+alias pin X.O106.7 s.8461
+# XO107
+alias pin X.O107.6 s.5412
+alias pin X.O107.7 s.5472
+# XO110
+alias pin X.O110.0 s.5231
+alias pin X.O110.1 s.5251
+alias pin X.O110.2 s.5271
+alias pin X.O110.3 s.5291
+alias pin X.O110.6 s.5071
+alias pin X.O110.7 s.5091
+
+
+# 7i90 @ sserial port 0 channel 0 connector P1
+# XO111
+alias pin X.O111.2 s.5432
+alias pin X.O111.3 s.5452
+alias pin X.O111.4 s.5861
+alias pin X.O111.5 s.5881
+alias pin X.O111.7 sINT 
+# XO113
+alias pin X.O113.0 s.1721
+alias pin X.O113.1 s.1741
+alias pin X.O113.4 s.1811
+alias pin X.O113.5 s.1901
+alias pin X.O113.6 s.1911
+alias pin X.O113.7 s.1821
+# XO116
+alias pin X.O116.2 s.9121
+alias pin X.O116.3 s.9101-unlock
+alias pin X.O116.6 s.9291
+alias pin X.O116.7 s.9301
+
+
+# 7i90 @ sserial port 0 channel 2 connector P2
+# XO120
+alias pin X.O120.0 s.9371
+alias pin X.O120.1 s.9391
+alias pin X.O120.2 s.9411
+alias pin X.O120.3 s.9431
+alias pin X.O120.4 s.9461
+alias pin X.O120.5 s.9481
+alias pin X.O120.6 s.9501
+alias pin X.O120.7 s.9521
+# XO121
+alias pin X.O121.0 s.9551
+alias pin X.O121.1 s.9571
+alias pin X.O121.4 s.10111
+alias pin X.O121.6 s.10091-unlock
+# XO122
+alias pin X.O122.5 s.9101-lock
+alias pin X.O122.6 s.10091-lock
+
+loadusr pyvcp -c anschlag custom_anschlag_pyvcp.xml
+loadusr pyvcp -c rawio custom_pyvcp.xml 
+loadusr classicladder --nogui Biesse_Rover_342.clp
+

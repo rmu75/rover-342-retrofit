@@ -1,0 +1,252 @@
+# outputs
+#
+
+net rs.X.O100.0 hm2_7i93.0.7i90.0.0.p2-in-07 => rawio.X.O100.0
+net rs.X.O100.1 hm2_7i93.0.7i90.0.0.p2-in-06 => rawio.X.O100.1
+net rs.X.O100.2 hm2_7i93.0.7i90.0.0.p2-in-05 => rawio.X.O100.2
+net rs.X.O100.3 hm2_7i93.0.7i90.0.0.p2-in-04 => rawio.X.O100.3
+net rs.X.O100.4 hm2_7i93.0.7i90.0.0.p2-in-03 => rawio.X.O100.4
+net rs.X.O100.5 hm2_7i93.0.7i90.0.0.p2-in-02 => rawio.X.O100.5
+net rs.X.O100.6 hm2_7i93.0.7i90.0.0.p2-in-01 => rawio.X.O100.6
+net rs.X.O100.7 hm2_7i93.0.7i90.0.0.p2-in-00 => rawio.X.O100.7
+
+net rs.X.O101.0 hm2_7i93.0.7i90.0.0.p2-in-15 => rawio.X.O101.0
+net rs.X.O101.1 hm2_7i93.0.7i90.0.0.p2-in-14 => rawio.X.O101.1
+net rs.X.O101.2 hm2_7i93.0.7i90.0.0.p2-in-13 => rawio.X.O101.2
+net rs.X.O101.3 hm2_7i93.0.7i90.0.0.p2-in-12 => rawio.X.O101.3
+net rs.X.O101.4 hm2_7i93.0.7i90.0.0.p2-in-11 => rawio.X.O101.4
+net rs.X.O101.5 hm2_7i93.0.7i90.0.0.p2-in-10 => rawio.X.O101.5
+net rs.X.O101.6 hm2_7i93.0.7i90.0.0.p2-in-09 => rawio.X.O101.6
+net rs.X.O101.7 hm2_7i93.0.7i90.0.0.p2-in-08 => rawio.X.O101.7
+
+net rs.X.O102.0 hm2_7i93.0.7i90.0.0.p2-in-23 => rawio.X.O102.0
+net rs.X.O102.1 hm2_7i93.0.7i90.0.0.p2-in-22 => rawio.X.O102.1
+net rs.X.O102.2 hm2_7i93.0.7i90.0.0.p2-in-21 => rawio.X.O102.2
+net rs.X.O102.3 hm2_7i93.0.7i90.0.0.p2-in-20 => rawio.X.O102.3
+net rs.X.O102.4 hm2_7i93.0.7i90.0.0.p2-in-19 => rawio.X.O102.4
+net rs.X.O102.5 hm2_7i93.0.7i90.0.0.p2-in-18 => rawio.X.O102.5
+net rs.X.O102.6 hm2_7i93.0.7i90.0.0.p2-in-17 => rawio.X.O102.6
+net rs.X.O102.7 hm2_7i93.0.7i90.0.0.p2-in-16 => rawio.X.O102.7
+
+
+net rs.X.O103.0 hm2_7i93.0.7i90.0.1.p1-in-07 => rawio.X.O103.0
+net rs.X.O103.1 hm2_7i93.0.7i90.0.1.p1-in-06 => rawio.X.O103.1
+net rs.X.O103.2 hm2_7i93.0.7i90.0.1.p1-in-05 => rawio.X.O103.2
+net rs.X.O103.3 hm2_7i93.0.7i90.0.1.p1-in-04 => rawio.X.O103.3
+net rs.X.O103.4 hm2_7i93.0.7i90.0.1.p1-in-03 => rawio.X.O103.4
+net rs.X.O103.5 hm2_7i93.0.7i90.0.1.p1-in-02 => rawio.X.O103.5
+net rs.X.O103.6 hm2_7i93.0.7i90.0.1.p1-in-01 => rawio.X.O103.6
+net rs.X.O103.7 hm2_7i93.0.7i90.0.1.p1-in-00 => rawio.X.O103.7
+
+net rs.X.O104.0 hm2_7i93.0.7i90.0.1.p1-in-15 => rawio.X.O104.0
+net rs.X.O104.1 hm2_7i93.0.7i90.0.1.p1-in-14 => rawio.X.O104.1
+net rs.X.O104.2 hm2_7i93.0.7i90.0.1.p1-in-13 => rawio.X.O104.2
+net rs.X.O104.3 hm2_7i93.0.7i90.0.1.p1-in-12 => rawio.X.O104.3
+net rs.X.O104.4 hm2_7i93.0.7i90.0.1.p1-in-11 => rawio.X.O104.4
+net rs.X.O104.5 hm2_7i93.0.7i90.0.1.p1-in-10 => rawio.X.O104.5
+net rs.X.O104.6 hm2_7i93.0.7i90.0.1.p1-in-09 => rawio.X.O104.6
+net rs.X.O104.7 hm2_7i93.0.7i90.0.1.p1-in-08 => rawio.X.O104.7
+
+net rs.X.O105.0 hm2_7i93.0.7i90.0.1.p1-in-23 => rawio.X.O105.0
+net rs.X.O105.1 hm2_7i93.0.7i90.0.1.p1-in-22 => rawio.X.O105.1
+net rs.X.O105.2 hm2_7i93.0.7i90.0.1.p1-in-21 => rawio.X.O105.2
+net rs.X.O105.3 hm2_7i93.0.7i90.0.1.p1-in-20 => rawio.X.O105.3
+net rs.X.O105.4 hm2_7i93.0.7i90.0.1.p1-in-19 => rawio.X.O105.4
+net rs.X.O105.5 hm2_7i93.0.7i90.0.1.p1-in-18 => rawio.X.O105.5
+net rs.X.O105.6 hm2_7i93.0.7i90.0.1.p1-in-17 => rawio.X.O105.6
+net rs.X.O105.7 hm2_7i93.0.7i90.0.1.p1-in-16 => rawio.X.O105.7
+
+
+net rs.X.O106.0 hm2_7i93.0.7i90.0.2.p1-in-07 => rawio.X.O106.0
+net rs.X.O106.1 hm2_7i93.0.7i90.0.2.p1-in-06 => rawio.X.O106.1
+net rs.X.O106.2 hm2_7i93.0.7i90.0.2.p1-in-05 => rawio.X.O106.2
+net rs.X.O106.3 hm2_7i93.0.7i90.0.2.p1-in-04 => rawio.X.O106.3
+net rs.X.O106.4 hm2_7i93.0.7i90.0.2.p1-in-03 => rawio.X.O106.4
+net rs.X.O106.5 hm2_7i93.0.7i90.0.2.p1-in-02 => rawio.X.O106.5
+net rs.X.O106.6 hm2_7i93.0.7i90.0.2.p1-in-01 => rawio.X.O106.6
+net rs.X.O106.7 hm2_7i93.0.7i90.0.2.p1-in-00 => rawio.X.O106.7
+
+net rs.X.O107.0 hm2_7i93.0.7i90.0.2.p1-in-15 => rawio.X.O107.0
+net rs.X.O107.1 hm2_7i93.0.7i90.0.2.p1-in-14 => rawio.X.O107.1
+net rs.X.O107.2 hm2_7i93.0.7i90.0.2.p1-in-13 => rawio.X.O107.2
+net rs.X.O107.3 hm2_7i93.0.7i90.0.2.p1-in-12 => rawio.X.O107.3
+net rs.X.O107.4 hm2_7i93.0.7i90.0.2.p1-in-11 => rawio.X.O107.4
+net rs.X.O107.5 hm2_7i93.0.7i90.0.2.p1-in-10 => rawio.X.O107.5
+net rs.X.O107.6 hm2_7i93.0.7i90.0.2.p1-in-09 => rawio.X.O107.6
+net rs.X.O107.7 hm2_7i93.0.7i90.0.2.p1-in-08 => rawio.X.O107.7
+
+net rs.X.O110.0 hm2_7i93.0.7i90.0.2.p1-in-23 => rawio.X.O110.0
+net rs.X.O110.1 hm2_7i93.0.7i90.0.2.p1-in-22 => rawio.X.O110.1
+net rs.X.O110.2 hm2_7i93.0.7i90.0.2.p1-in-21 => rawio.X.O110.2
+net rs.X.O110.3 hm2_7i93.0.7i90.0.2.p1-in-20 => rawio.X.O110.3
+net rs.X.O110.4 hm2_7i93.0.7i90.0.2.p1-in-19 => rawio.X.O110.4
+net rs.X.O110.5 hm2_7i93.0.7i90.0.2.p1-in-18 => rawio.X.O110.5
+net rs.X.O110.6 hm2_7i93.0.7i90.0.2.p1-in-17 => rawio.X.O110.6
+net rs.X.O110.7 hm2_7i93.0.7i90.0.2.p1-in-16 => rawio.X.O110.7
+
+
+net rs.X.O111.0 hm2_7i93.0.7i90.0.0.p1-in-07 => rawio.X.O111.0
+net rs.X.O111.1 hm2_7i93.0.7i90.0.0.p1-in-06 => rawio.X.O111.1
+net rs.X.O111.2 hm2_7i93.0.7i90.0.0.p1-in-05 => rawio.X.O111.2
+net rs.X.O111.3 hm2_7i93.0.7i90.0.0.p1-in-04 => rawio.X.O111.3
+net rs.X.O111.4 hm2_7i93.0.7i90.0.0.p1-in-03 => rawio.X.O111.4
+net rs.X.O111.5 hm2_7i93.0.7i90.0.0.p1-in-02 => rawio.X.O111.5
+net rs.X.O111.6 hm2_7i93.0.7i90.0.0.p1-in-01 => rawio.X.O111.6
+net rs.X.O111.7 hm2_7i93.0.7i90.0.0.p1-in-00 => rawio.X.O111.7
+
+net rs.X.O113.0 hm2_7i93.0.7i90.0.0.p1-in-15 => rawio.X.O113.0
+net rs.X.O113.1 hm2_7i93.0.7i90.0.0.p1-in-14 => rawio.X.O113.1
+net rs.X.O113.2 hm2_7i93.0.7i90.0.0.p1-in-13 => rawio.X.O113.2
+net rs.X.O113.3 hm2_7i93.0.7i90.0.0.p1-in-12 => rawio.X.O113.3
+net rs.X.O113.4 hm2_7i93.0.7i90.0.0.p1-in-11 => rawio.X.O113.4
+net rs.X.O113.5 hm2_7i93.0.7i90.0.0.p1-in-10 => rawio.X.O113.5
+net rs.X.O113.6 hm2_7i93.0.7i90.0.0.p1-in-09 => rawio.X.O113.6
+net rs.X.O113.7 hm2_7i93.0.7i90.0.0.p1-in-08 => rawio.X.O113.7
+
+net rs.X.O116.0 hm2_7i93.0.7i90.0.0.p1-in-23 => rawio.X.O116.0
+net rs.X.O116.1 hm2_7i93.0.7i90.0.0.p1-in-22 => rawio.X.O116.1
+net rs.X.O116.2 hm2_7i93.0.7i90.0.0.p1-in-21 => rawio.X.O116.2
+net rs.X.O116.3 hm2_7i93.0.7i90.0.0.p1-in-20 => rawio.X.O116.3
+net rs.X.O116.4 hm2_7i93.0.7i90.0.0.p1-in-19 => rawio.X.O116.4
+net rs.X.O116.5 hm2_7i93.0.7i90.0.0.p1-in-18 => rawio.X.O116.5
+net rs.X.O116.6 hm2_7i93.0.7i90.0.0.p1-in-17 => rawio.X.O116.6
+net rs.X.O116.7 hm2_7i93.0.7i90.0.0.p1-in-16 => rawio.X.O116.7
+
+
+net rs.X.O120.0 hm2_7i93.0.7i90.0.2.p2-in-07 => rawio.X.O120.0
+net rs.X.O120.1 hm2_7i93.0.7i90.0.2.p2-in-06 => rawio.X.O120.1
+net rs.X.O120.2 hm2_7i93.0.7i90.0.2.p2-in-05 => rawio.X.O120.2
+net rs.X.O120.3 hm2_7i93.0.7i90.0.2.p2-in-04 => rawio.X.O120.3
+net rs.X.O120.4 hm2_7i93.0.7i90.0.2.p2-in-03 => rawio.X.O120.4
+net rs.X.O120.5 hm2_7i93.0.7i90.0.2.p2-in-02 => rawio.X.O120.5
+net rs.X.O120.6 hm2_7i93.0.7i90.0.2.p2-in-01 => rawio.X.O120.6
+net rs.X.O120.7 hm2_7i93.0.7i90.0.2.p2-in-00 => rawio.X.O120.7
+
+net rs.X.O121.0 hm2_7i93.0.7i90.0.2.p2-in-15 => rawio.X.O121.0
+net rs.X.O121.1 hm2_7i93.0.7i90.0.2.p2-in-14 => rawio.X.O121.1
+net rs.X.O121.2 hm2_7i93.0.7i90.0.2.p2-in-13 => rawio.X.O121.2
+net rs.X.O121.3 hm2_7i93.0.7i90.0.2.p2-in-12 => rawio.X.O121.3
+net rs.X.O121.4 hm2_7i93.0.7i90.0.2.p2-in-11 => rawio.X.O121.4
+net rs.X.O121.5 hm2_7i93.0.7i90.0.2.p2-in-10 => rawio.X.O121.5
+net rs.X.O121.6 hm2_7i93.0.7i90.0.2.p2-in-09 => rawio.X.O121.6
+net rs.X.O121.7 hm2_7i93.0.7i90.0.2.p2-in-08 => rawio.X.O121.7
+
+net rs.X.O122.0 hm2_7i93.0.7i90.0.2.p2-in-23 => rawio.X.O122.0
+net rs.X.O122.1 hm2_7i93.0.7i90.0.2.p2-in-22 => rawio.X.O122.1
+net rs.X.O122.2 hm2_7i93.0.7i90.0.2.p2-in-21 => rawio.X.O122.2
+net rs.X.O122.3 hm2_7i93.0.7i90.0.2.p2-in-20 => rawio.X.O122.3
+net rs.X.O122.4 hm2_7i93.0.7i90.0.2.p2-in-19 => rawio.X.O122.4
+net rs.X.O122.5 hm2_7i93.0.7i90.0.2.p2-in-18 => rawio.X.O122.5
+net rs.X.O122.6 hm2_7i93.0.7i90.0.2.p2-in-17 => rawio.X.O122.6
+net rs.X.O122.7 hm2_7i93.0.7i90.0.2.p2-in-16 => rawio.X.O122.7
+
+
+# inputs
+#
+net rs.X.I100.0 hm2_7i93.0.7i90.0.1.p3-in-00 => rawio.X.I100.0
+net rs.X.I100.1 hm2_7i93.0.7i90.0.1.p3-in-01 => rawio.X.I100.1
+net rs.X.I100.2 hm2_7i93.0.7i90.0.1.p3-in-02 => rawio.X.I100.2
+net rs.X.I100.3 hm2_7i93.0.7i90.0.1.p3-in-03 => rawio.X.I100.3
+net rs.X.I100.4 hm2_7i93.0.7i90.0.1.p3-in-04 => rawio.X.I100.4
+net rs.X.I100.5 hm2_7i93.0.7i90.0.1.p3-in-05 => rawio.X.I100.5
+net rs.X.I100.6 hm2_7i93.0.7i90.0.1.p3-in-06 => rawio.X.I100.6
+net rs.X.I100.7 hm2_7i93.0.7i90.0.1.p3-in-07 => rawio.X.I100.7
+
+net rs.X.I101.0 hm2_7i93.0.7i90.0.1.p3-in-08 => rawio.X.I101.0
+net rs.X.I101.1 hm2_7i93.0.7i90.0.1.p3-in-09 => rawio.X.I101.1
+net rs.X.I101.2 hm2_7i93.0.7i90.0.1.p3-in-10 => rawio.X.I101.2
+net rs.X.I101.3 hm2_7i93.0.7i90.0.1.p3-in-11 => rawio.X.I101.3
+net rs.X.I101.4 hm2_7i93.0.7i90.0.1.p3-in-12 => rawio.X.I101.4
+net rs.X.I101.5 hm2_7i93.0.7i90.0.1.p3-in-13 => rawio.X.I101.5
+net rs.X.I101.6 hm2_7i93.0.7i90.0.1.p3-in-14 => rawio.X.I101.6
+net rs.X.I101.7 hm2_7i93.0.7i90.0.1.p3-in-15 => rawio.X.I101.7
+
+net rs.X.I102.0 hm2_7i93.0.7i90.0.1.p3-in-16 => rawio.X.I102.0
+net rs.X.I102.1 hm2_7i93.0.7i90.0.1.p3-in-17 => rawio.X.I102.1
+net rs.X.I102.2 hm2_7i93.0.7i90.0.1.p3-in-18 => rawio.X.I102.2
+net rs.X.I102.3 hm2_7i93.0.7i90.0.1.p3-in-19 => rawio.X.I102.3
+net rs.X.I102.4 hm2_7i93.0.7i90.0.1.p3-in-20 => rawio.X.I102.4
+net rs.X.I102.5 hm2_7i93.0.7i90.0.1.p3-in-21 => rawio.X.I102.5
+net rs.X.I102.6 hm2_7i93.0.7i90.0.1.p3-in-22 => rawio.X.I102.6
+net rs.X.I102.7 hm2_7i93.0.7i90.0.1.p3-in-23 => rawio.X.I102.7
+
+
+net rs.X.I103.0 hm2_7i93.0.7i90.0.0.p3-in-00 => rawio.X.I103.0
+net rs.X.I103.1 hm2_7i93.0.7i90.0.0.p3-in-01 => rawio.X.I103.1
+net rs.X.I103.2 hm2_7i93.0.7i90.0.0.p3-in-02 => rawio.X.I103.2
+net rs.X.I103.3 hm2_7i93.0.7i90.0.0.p3-in-03 => rawio.X.I103.3
+net rs.X.I103.4 hm2_7i93.0.7i90.0.0.p3-in-04 => rawio.X.I103.4
+net rs.X.I103.5 hm2_7i93.0.7i90.0.0.p3-in-05 => rawio.X.I103.5
+net rs.X.I103.6 hm2_7i93.0.7i90.0.0.p3-in-06 => rawio.X.I103.6
+net rs.X.I103.7 hm2_7i93.0.7i90.0.0.p3-in-07 => rawio.X.I103.7
+
+net rs.X.I104.0 hm2_7i93.0.7i90.0.0.p3-in-08 => rawio.X.I104.0
+net rs.X.I104.1 hm2_7i93.0.7i90.0.0.p3-in-09 => rawio.X.I104.1
+net rs.X.I104.2 hm2_7i93.0.7i90.0.0.p3-in-10 => rawio.X.I104.2
+net rs.X.I104.3 hm2_7i93.0.7i90.0.0.p3-in-11 => rawio.X.I104.3
+net rs.X.I104.4 hm2_7i93.0.7i90.0.0.p3-in-12 => rawio.X.I104.4
+net rs.X.I104.5 hm2_7i93.0.7i90.0.0.p3-in-13 => rawio.X.I104.5
+net rs.X.I104.6 hm2_7i93.0.7i90.0.0.p3-in-14 => rawio.X.I104.6
+net rs.X.I104.7 hm2_7i93.0.7i90.0.0.p3-in-15 => rawio.X.I104.7
+
+net rs.X.I107.0 hm2_7i93.0.7i90.0.0.p3-in-16 => rawio.X.I107.0
+net rs.X.I107.1 hm2_7i93.0.7i90.0.0.p3-in-17 => rawio.X.I107.1
+net rs.X.I107.2 hm2_7i93.0.7i90.0.0.p3-in-18 => rawio.X.I107.2
+net rs.X.I107.3 hm2_7i93.0.7i90.0.0.p3-in-19 => rawio.X.I107.3
+net rs.X.I107.4 hm2_7i93.0.7i90.0.0.p3-in-20 => rawio.X.I107.4
+net rs.X.I107.5 hm2_7i93.0.7i90.0.0.p3-in-21 => rawio.X.I107.5
+net rs.X.I107.6 hm2_7i93.0.7i90.0.0.p3-in-22 => rawio.X.I107.6
+net rs.X.I107.7 hm2_7i93.0.7i90.0.0.p3-in-23 => rawio.X.I107.7
+
+
+net rs.X.I110.0 hm2_7i93.0.7i90.0.1.p2-in-00 => rawio.X.I110.0
+net rs.X.I110.1 hm2_7i93.0.7i90.0.1.p2-in-01 => rawio.X.I110.1
+net rs.X.I110.2 hm2_7i93.0.7i90.0.1.p2-in-02 => rawio.X.I110.2
+net rs.X.I110.3 hm2_7i93.0.7i90.0.1.p2-in-03 => rawio.X.I110.3
+net rs.X.I110.4 hm2_7i93.0.7i90.0.1.p2-in-04 => rawio.X.I110.4
+net rs.X.I110.5 hm2_7i93.0.7i90.0.1.p2-in-05 => rawio.X.I110.5
+net rs.X.I110.6 hm2_7i93.0.7i90.0.1.p2-in-06 => rawio.X.I110.6
+net rs.X.I110.7 hm2_7i93.0.7i90.0.1.p2-in-07 => rawio.X.I110.7
+
+net rs.X.I111.0 hm2_7i93.0.7i90.0.1.p2-in-08 => rawio.X.I111.0
+net rs.X.I111.1 hm2_7i93.0.7i90.0.1.p2-in-09 => rawio.X.I111.1
+net rs.X.I111.2 hm2_7i93.0.7i90.0.1.p2-in-10 => rawio.X.I111.2
+net rs.X.I111.3 hm2_7i93.0.7i90.0.1.p2-in-11 => rawio.X.I111.3
+net rs.X.I111.4 hm2_7i93.0.7i90.0.1.p2-in-12 => rawio.X.I111.4
+net rs.X.I111.5 hm2_7i93.0.7i90.0.1.p2-in-13 => rawio.X.I111.5
+net rs.X.I111.6 hm2_7i93.0.7i90.0.1.p2-in-14 => rawio.X.I111.6
+net rs.X.I111.7 hm2_7i93.0.7i90.0.1.p2-in-15 => rawio.X.I111.7
+
+net rs.X.I112.0 hm2_7i93.0.7i90.0.1.p2-in-16 => rawio.X.I112.0
+net rs.X.I112.1 hm2_7i93.0.7i90.0.1.p2-in-17 => rawio.X.I112.1
+net rs.X.I112.2 hm2_7i93.0.7i90.0.1.p2-in-18 => rawio.X.I112.2
+net rs.X.I112.3 hm2_7i93.0.7i90.0.1.p2-in-19 => rawio.X.I112.3
+net rs.X.I112.4 hm2_7i93.0.7i90.0.1.p2-in-20 => rawio.X.I112.4
+net rs.X.I112.5 hm2_7i93.0.7i90.0.1.p2-in-21 => rawio.X.I112.5
+net rs.X.I112.6 hm2_7i93.0.7i90.0.1.p2-in-22 => rawio.X.I112.6
+net rs.X.I112.7 hm2_7i93.0.7i90.0.1.p2-in-23 => rawio.X.I112.7
+
+net probe-in hm2_7i93.0.7i90.0.2.p3-in-00 => rawio.X.I106.0
+net rs.X.I106.1 hm2_7i93.0.7i90.0.2.p3-in-01 => rawio.X.I106.1
+net rs.X.I106.2 hm2_7i93.0.7i90.0.2.p3-in-02 => rawio.X.I106.2
+net rs.X.I106.3 hm2_7i93.0.7i90.0.2.p3-in-03 => rawio.X.I106.3
+net rs.X.I106.4 hm2_7i93.0.7i90.0.2.p3-in-04 => rawio.X.I106.4
+net rs.X.I106.5 hm2_7i93.0.7i90.0.2.p3-in-05 => rawio.X.I106.5
+net rs.X.I106.6 hm2_7i93.0.7i90.0.2.p3-in-06 => rawio.X.I106.6
+net rs.X.I106.7 hm2_7i93.0.7i90.0.2.p3-in-07 => rawio.X.I106.7
+
+# encoders
+net x-pos-fb               <=  hm2_7i93.0.encoder.00.position
+net x-vel-fb               <=  hm2_7i93.0.encoder.00.velocity
+net x-pos-fb               =>  rawio.RAW-POS-X
+net x-vel-fb		   =>  rawio.RAW-VEL-X
+
+net y-pos-fb               <=  hm2_7i93.0.encoder.01.position
+net y-vel-fb               <=  hm2_7i93.0.encoder.01.velocity
+net y-pos-fb               =>  rawio.RAW-POS-Y
+net y-vel-fb		   =>  rawio.RAW-VEL-Y
+
+net z-pos-fb               <=  hm2_7i93.0.encoder.02.position
+net z-vel-fb               <=  hm2_7i93.0.encoder.02.velocity
+net z-pos-fb               =>  rawio.RAW-POS-Z
+net z-vel-fb		   =>  rawio.RAW-VEL-Z

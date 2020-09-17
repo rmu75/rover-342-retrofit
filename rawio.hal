@@ -1,0 +1,237 @@
+# outputs
+#
+
+alias pin hm2_7i93.0.7i90.0.0.p2-out-07 X.O100.0
+alias pin hm2_7i93.0.7i90.0.0.p2-out-06 X.O100.1
+alias pin hm2_7i93.0.7i90.0.0.p2-out-05 X.O100.2
+alias pin hm2_7i93.0.7i90.0.0.p2-out-04 X.O100.3
+alias pin hm2_7i93.0.7i90.0.0.p2-out-03 X.O100.4
+alias pin hm2_7i93.0.7i90.0.0.p2-out-02 X.O100.5
+alias pin hm2_7i93.0.7i90.0.0.p2-out-01 X.O100.6
+alias pin hm2_7i93.0.7i90.0.0.p2-out-00 X.O100.7
+
+alias pin hm2_7i93.0.7i90.0.0.p2-out-15 X.O101.0
+alias pin hm2_7i93.0.7i90.0.0.p2-out-14 X.O101.1
+alias pin hm2_7i93.0.7i90.0.0.p2-out-13 X.O101.2
+alias pin hm2_7i93.0.7i90.0.0.p2-out-12 X.O101.3
+alias pin hm2_7i93.0.7i90.0.0.p2-out-11 X.O101.4
+alias pin hm2_7i93.0.7i90.0.0.p2-out-10 X.O101.5
+alias pin hm2_7i93.0.7i90.0.0.p2-out-09 X.O101.6
+alias pin hm2_7i93.0.7i90.0.0.p2-out-08 X.O101.7
+
+alias pin hm2_7i93.0.7i90.0.0.p2-out-23 X.O102.0
+alias pin hm2_7i93.0.7i90.0.0.p2-out-22 X.O102.1
+alias pin hm2_7i93.0.7i90.0.0.p2-out-21 X.O102.2
+alias pin hm2_7i93.0.7i90.0.0.p2-out-20 X.O102.3
+alias pin hm2_7i93.0.7i90.0.0.p2-out-19 X.O102.4
+alias pin hm2_7i93.0.7i90.0.0.p2-out-18 X.O102.5
+alias pin hm2_7i93.0.7i90.0.0.p2-out-17 X.O102.6
+alias pin hm2_7i93.0.7i90.0.0.p2-out-16 X.O102.7
+
+
+alias pin hm2_7i93.0.7i90.0.1.p1-out-07 X.O103.0
+alias pin hm2_7i93.0.7i90.0.1.p1-out-06 X.O103.1
+alias pin hm2_7i93.0.7i90.0.1.p1-out-05 X.O103.2
+alias pin hm2_7i93.0.7i90.0.1.p1-out-04 X.O103.3
+alias pin hm2_7i93.0.7i90.0.1.p1-out-03 X.O103.4
+alias pin hm2_7i93.0.7i90.0.1.p1-out-02 X.O103.5
+alias pin hm2_7i93.0.7i90.0.1.p1-out-01 X.O103.6
+alias pin hm2_7i93.0.7i90.0.1.p1-out-00 X.O103.7
+
+alias pin hm2_7i93.0.7i90.0.1.p1-out-15 X.O104.0
+alias pin hm2_7i93.0.7i90.0.1.p1-out-14 X.O104.1
+alias pin hm2_7i93.0.7i90.0.1.p1-out-13 X.O104.2
+alias pin hm2_7i93.0.7i90.0.1.p1-out-12 X.O104.3
+alias pin hm2_7i93.0.7i90.0.1.p1-out-11 X.O104.4
+alias pin hm2_7i93.0.7i90.0.1.p1-out-10 X.O104.5
+alias pin hm2_7i93.0.7i90.0.1.p1-out-09 X.O104.6
+alias pin hm2_7i93.0.7i90.0.1.p1-out-08 X.O104.7
+
+alias pin hm2_7i93.0.7i90.0.1.p1-out-23 X.O105.0
+alias pin hm2_7i93.0.7i90.0.1.p1-out-22 X.O105.1
+alias pin hm2_7i93.0.7i90.0.1.p1-out-21 X.O105.2
+alias pin hm2_7i93.0.7i90.0.1.p1-out-20 X.O105.3
+alias pin hm2_7i93.0.7i90.0.1.p1-out-19 X.O105.4
+alias pin hm2_7i93.0.7i90.0.1.p1-out-18 X.O105.5
+alias pin hm2_7i93.0.7i90.0.1.p1-out-17 X.O105.6
+alias pin hm2_7i93.0.7i90.0.1.p1-out-16 X.O105.7
+
+
+alias pin hm2_7i93.0.7i90.0.2.p1-out-07 X.O106.0
+alias pin hm2_7i93.0.7i90.0.2.p1-out-06 X.O106.1
+alias pin hm2_7i93.0.7i90.0.2.p1-out-05 X.O106.2
+alias pin hm2_7i93.0.7i90.0.2.p1-out-04 X.O106.3
+alias pin hm2_7i93.0.7i90.0.2.p1-out-03 X.O106.4
+alias pin hm2_7i93.0.7i90.0.2.p1-out-02 X.O106.5
+alias pin hm2_7i93.0.7i90.0.2.p1-out-01 X.O106.6
+alias pin hm2_7i93.0.7i90.0.2.p1-out-00 X.O106.7
+
+alias pin hm2_7i93.0.7i90.0.2.p1-out-15 X.O107.0
+alias pin hm2_7i93.0.7i90.0.2.p1-out-14 X.O107.1
+alias pin hm2_7i93.0.7i90.0.2.p1-out-13 X.O107.2
+alias pin hm2_7i93.0.7i90.0.2.p1-out-12 X.O107.3
+alias pin hm2_7i93.0.7i90.0.2.p1-out-11 X.O107.4
+alias pin hm2_7i93.0.7i90.0.2.p1-out-10 X.O107.5
+alias pin hm2_7i93.0.7i90.0.2.p1-out-09 X.O107.6
+alias pin hm2_7i93.0.7i90.0.2.p1-out-08 X.O107.7
+
+alias pin hm2_7i93.0.7i90.0.2.p1-out-23 X.O110.0
+alias pin hm2_7i93.0.7i90.0.2.p1-out-22 X.O110.1
+alias pin hm2_7i93.0.7i90.0.2.p1-out-21 X.O110.2
+alias pin hm2_7i93.0.7i90.0.2.p1-out-20 X.O110.3
+alias pin hm2_7i93.0.7i90.0.2.p1-out-19 X.O110.4
+alias pin hm2_7i93.0.7i90.0.2.p1-out-18 X.O110.5
+alias pin hm2_7i93.0.7i90.0.2.p1-out-17 X.O110.6
+alias pin hm2_7i93.0.7i90.0.2.p1-out-16 X.O110.7
+
+
+alias pin hm2_7i93.0.7i90.0.0.p1-out-07 X.O111.0
+alias pin hm2_7i93.0.7i90.0.0.p1-out-06 X.O111.1
+alias pin hm2_7i93.0.7i90.0.0.p1-out-05 X.O111.2
+alias pin hm2_7i93.0.7i90.0.0.p1-out-04 X.O111.3
+alias pin hm2_7i93.0.7i90.0.0.p1-out-03 X.O111.4
+alias pin hm2_7i93.0.7i90.0.0.p1-out-02 X.O111.5
+alias pin hm2_7i93.0.7i90.0.0.p1-out-01 X.O111.6
+alias pin hm2_7i93.0.7i90.0.0.p1-out-00 X.O111.7
+
+alias pin hm2_7i93.0.7i90.0.0.p1-out-15 X.O113.0
+alias pin hm2_7i93.0.7i90.0.0.p1-out-14 X.O113.1
+alias pin hm2_7i93.0.7i90.0.0.p1-out-13 X.O113.2
+alias pin hm2_7i93.0.7i90.0.0.p1-out-12 X.O113.3
+alias pin hm2_7i93.0.7i90.0.0.p1-out-11 X.O113.4
+alias pin hm2_7i93.0.7i90.0.0.p1-out-10 X.O113.5
+alias pin hm2_7i93.0.7i90.0.0.p1-out-09 X.O113.6
+alias pin hm2_7i93.0.7i90.0.0.p1-out-08 X.O113.7
+
+alias pin hm2_7i93.0.7i90.0.0.p1-out-23 X.O116.0
+alias pin hm2_7i93.0.7i90.0.0.p1-out-22 X.O116.1
+alias pin hm2_7i93.0.7i90.0.0.p1-out-21 X.O116.2
+alias pin hm2_7i93.0.7i90.0.0.p1-out-20 X.O116.3
+alias pin hm2_7i93.0.7i90.0.0.p1-out-19 X.O116.4
+alias pin hm2_7i93.0.7i90.0.0.p1-out-18 X.O116.5
+alias pin hm2_7i93.0.7i90.0.0.p1-out-17 X.O116.6
+alias pin hm2_7i93.0.7i90.0.0.p1-out-16 X.O116.7
+
+
+alias pin hm2_7i93.0.7i90.0.2.p2-out-07 X.O120.0
+alias pin hm2_7i93.0.7i90.0.2.p2-out-06 X.O120.1
+alias pin hm2_7i93.0.7i90.0.2.p2-out-05 X.O120.2
+alias pin hm2_7i93.0.7i90.0.2.p2-out-04 X.O120.3
+alias pin hm2_7i93.0.7i90.0.2.p2-out-03 X.O120.4
+alias pin hm2_7i93.0.7i90.0.2.p2-out-02 X.O120.5
+alias pin hm2_7i93.0.7i90.0.2.p2-out-01 X.O120.6
+alias pin hm2_7i93.0.7i90.0.2.p2-out-00 X.O120.7
+
+alias pin hm2_7i93.0.7i90.0.2.p2-out-15 X.O121.0
+alias pin hm2_7i93.0.7i90.0.2.p2-out-14 X.O121.1
+alias pin hm2_7i93.0.7i90.0.2.p2-out-13 X.O121.2
+alias pin hm2_7i93.0.7i90.0.2.p2-out-12 X.O121.3
+alias pin hm2_7i93.0.7i90.0.2.p2-out-11 X.O121.4
+alias pin hm2_7i93.0.7i90.0.2.p2-out-10 X.O121.5
+alias pin hm2_7i93.0.7i90.0.2.p2-out-09 X.O121.6
+alias pin hm2_7i93.0.7i90.0.2.p2-out-08 X.O121.7
+
+alias pin hm2_7i93.0.7i90.0.2.p2-out-23 X.O122.0
+alias pin hm2_7i93.0.7i90.0.2.p2-out-22 X.O122.1
+alias pin hm2_7i93.0.7i90.0.2.p2-out-21 X.O122.2
+alias pin hm2_7i93.0.7i90.0.2.p2-out-20 X.O122.3
+alias pin hm2_7i93.0.7i90.0.2.p2-out-19 X.O122.4
+alias pin hm2_7i93.0.7i90.0.2.p2-out-18 X.O122.5
+alias pin hm2_7i93.0.7i90.0.2.p2-out-17 X.O122.6
+alias pin hm2_7i93.0.7i90.0.2.p2-out-16 X.O122.7
+
+
+# inputs
+#
+alias pin hm2_7i93.0.7i90.0.1.p3-in-00-not X.I100.0
+alias pin hm2_7i93.0.7i90.0.1.p3-in-01-not X.I100.1
+alias pin hm2_7i93.0.7i90.0.1.p3-in-02-not X.I100.2
+alias pin hm2_7i93.0.7i90.0.1.p3-in-03-not X.I100.3
+alias pin hm2_7i93.0.7i90.0.1.p3-in-04-not X.I100.4
+alias pin hm2_7i93.0.7i90.0.1.p3-in-05-not X.I100.5
+alias pin hm2_7i93.0.7i90.0.1.p3-in-06-not X.I100.6
+alias pin hm2_7i93.0.7i90.0.1.p3-in-07-not X.I100.7
+
+alias pin hm2_7i93.0.7i90.0.1.p3-in-08-not X.I101.0
+alias pin hm2_7i93.0.7i90.0.1.p3-in-09-not X.I101.1
+alias pin hm2_7i93.0.7i90.0.1.p3-in-10-not X.I101.2
+alias pin hm2_7i93.0.7i90.0.1.p3-in-11-not X.I101.3
+alias pin hm2_7i93.0.7i90.0.1.p3-in-12-not X.I101.4
+alias pin hm2_7i93.0.7i90.0.1.p3-in-13-not X.I101.5
+alias pin hm2_7i93.0.7i90.0.1.p3-in-14-not X.I101.6
+alias pin hm2_7i93.0.7i90.0.1.p3-in-15-not X.I101.7
+
+alias pin hm2_7i93.0.7i90.0.1.p3-in-16-not X.I102.0
+alias pin hm2_7i93.0.7i90.0.1.p3-in-17-not X.I102.1
+alias pin hm2_7i93.0.7i90.0.1.p3-in-18-not X.I102.2
+alias pin hm2_7i93.0.7i90.0.1.p3-in-19-not X.I102.3
+alias pin hm2_7i93.0.7i90.0.1.p3-in-20-not X.I102.4
+alias pin hm2_7i93.0.7i90.0.1.p3-in-21-not X.I102.5
+alias pin hm2_7i93.0.7i90.0.1.p3-in-22-not X.I102.6
+alias pin hm2_7i93.0.7i90.0.1.p3-in-23-not X.I102.7
+
+
+alias pin hm2_7i93.0.7i90.0.0.p3-in-00-not X.I103.0
+alias pin hm2_7i93.0.7i90.0.0.p3-in-01-not X.I103.1
+alias pin hm2_7i93.0.7i90.0.0.p3-in-02-not X.I103.2
+alias pin hm2_7i93.0.7i90.0.0.p3-in-03-not X.I103.3
+alias pin hm2_7i93.0.7i90.0.0.p3-in-04-not X.I103.4
+alias pin hm2_7i93.0.7i90.0.0.p3-in-05-not X.I103.5
+alias pin hm2_7i93.0.7i90.0.0.p3-in-06-not X.I103.6
+alias pin hm2_7i93.0.7i90.0.0.p3-in-07-not X.I103.7
+alias pin hm2_7i93.0.7i90.0.0.p3-in-07     X.I103.n7
+
+alias pin hm2_7i93.0.7i90.0.0.p3-in-08-not X.I104.0
+alias pin hm2_7i93.0.7i90.0.0.p3-in-09-not X.I104.1
+alias pin hm2_7i93.0.7i90.0.0.p3-in-10-not X.I104.2
+alias pin hm2_7i93.0.7i90.0.0.p3-in-11-not X.I104.3
+alias pin hm2_7i93.0.7i90.0.0.p3-in-12-not X.I104.4
+alias pin hm2_7i93.0.7i90.0.0.p3-in-13-not X.I104.5
+alias pin hm2_7i93.0.7i90.0.0.p3-in-14-not X.I104.6
+alias pin hm2_7i93.0.7i90.0.0.p3-in-15-not X.I104.7
+
+alias pin hm2_7i93.0.7i90.0.0.p3-in-16-not X.I107.0
+alias pin hm2_7i93.0.7i90.0.0.p3-in-17-not X.I107.1
+alias pin hm2_7i93.0.7i90.0.0.p3-in-18-not X.I107.2
+alias pin hm2_7i93.0.7i90.0.0.p3-in-19-not X.I107.3
+alias pin hm2_7i93.0.7i90.0.0.p3-in-20-not X.I107.4
+alias pin hm2_7i93.0.7i90.0.0.p3-in-21-not X.I107.5
+alias pin hm2_7i93.0.7i90.0.0.p3-in-22-not X.I107.6
+alias pin hm2_7i93.0.7i90.0.0.p3-in-23-not X.I107.7
+
+
+alias pin hm2_7i93.0.7i90.0.1.p2-in-00-not X.I110.0
+alias pin hm2_7i93.0.7i90.0.1.p2-in-01-not X.I110.1
+alias pin hm2_7i93.0.7i90.0.1.p2-in-02-not X.I110.2
+alias pin hm2_7i93.0.7i90.0.1.p2-in-03-not X.I110.3
+alias pin hm2_7i93.0.7i90.0.1.p2-in-04-not X.I110.4
+alias pin hm2_7i93.0.7i90.0.1.p2-in-05-not X.I110.5
+alias pin hm2_7i93.0.7i90.0.1.p2-in-06-not X.I110.6
+alias pin hm2_7i93.0.7i90.0.1.p2-in-07-not X.I110.7
+
+alias pin hm2_7i93.0.7i90.0.1.p2-in-08-not X.I111.0
+alias pin hm2_7i93.0.7i90.0.1.p2-in-09-not X.I111.1
+alias pin hm2_7i93.0.7i90.0.1.p2-in-10-not X.I111.2
+alias pin hm2_7i93.0.7i90.0.1.p2-in-11-not X.I111.3
+alias pin hm2_7i93.0.7i90.0.1.p2-in-12-not X.I111.4
+alias pin hm2_7i93.0.7i90.0.1.p2-in-13-not X.I111.5
+alias pin hm2_7i93.0.7i90.0.1.p2-in-14-not X.I111.6
+alias pin hm2_7i93.0.7i90.0.1.p2-in-15-not X.I111.7
+
+alias pin hm2_7i93.0.7i90.0.1.p2-in-16-not X.I112.0
+alias pin hm2_7i93.0.7i90.0.1.p2-in-17-not X.I112.1
+alias pin hm2_7i93.0.7i90.0.1.p2-in-18-not X.I112.2
+alias pin hm2_7i93.0.7i90.0.1.p2-in-19-not X.I112.3
+alias pin hm2_7i93.0.7i90.0.1.p2-in-20-not X.I112.4
+alias pin hm2_7i93.0.7i90.0.1.p2-in-21-not X.I112.5
+alias pin hm2_7i93.0.7i90.0.1.p2-in-22-not X.I112.6
+alias pin hm2_7i93.0.7i90.0.1.p2-in-23-not X.I112.7
+
+alias pin hm2_7i93.0.7i90.0.2.p3-in-00-not X.I106.0
+alias pin hm2_7i93.0.7i90.0.2.p3-in-01-not X.I106.1
+alias pin hm2_7i93.0.7i90.0.2.p3-in-02-not X.I106.2
+alias pin hm2_7i93.0.7i90.0.2.p3-in-03-not X.I106.3
+alias pin hm2_7i93.0.7i90.0.2.p3-in-04-not X.I106.4
+alias pin hm2_7i93.0.7i90.0.2.p3-in-05-not X.I106.5
+alias pin hm2_7i93.0.7i90.0.2.p3-in-06-not X.I106.6
+alias pin hm2_7i93.0.7i90.0.2.p3-in-07-not X.I106.7

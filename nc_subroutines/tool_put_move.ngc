@@ -1,0 +1,39 @@
+o<tool_put_move> sub
+
+G53 G0 Z0
+
+o10000 if [#1 EQ 1]
+  G53 G0 Z-63.0
+  G53 G1 X277.1 Y-411.5
+o10000 elseif [#1 EQ 2]
+  G53 G0 Z-63.0
+  G53 G1 X277.1 Y-563.5
+o10000 elseif [#1 EQ 3]
+  G53 G0 Z-63.0
+  G53 G1 X277.1 Y-715.5 (Z -63.0)
+o10000 elseif [#1 EQ 4]
+  G53 G0 Z-62.5
+  G53 G1 X277.1 Y-867.5
+o10000 elseif [#1 EQ 5]
+  G53 G0 Z-62.2
+  G53 G1 X277.1 Y-1019.5
+o10000 elseif [#1 EQ 6] (Z -63.55)
+  G53 G0 Z-63.5
+  G53 G1 X125.1 Y-411.5
+o10000 elseif [#1 EQ 7]
+  G53 G0 Z-63.0
+  G53 G1 X125.00 Y-563.5
+o10000 elseif [#1 EQ 8]
+  G53 G0 Z-63.0
+  G53 G1 X124.7 Y-715.5
+o10000 elseif [#1 EQ 9]
+  G53 G0 Z-62.5
+  G53 G1 X125.1 Y-867.5
+o10000 elseif [#1 EQ 10]
+  G53 G0 Z-62.5
+  G53 G1 X125.1 Y-1019.5
+o10000 else
+  (abort, tool_change: move to unknown pocket #1 commanded)
+o10000 endif
+o<tool_put_move> endsub
+m2
